@@ -1,0 +1,84 @@
+.main {
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+  }
+  
+  .heading {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .heading h1 {
+    font-size: 2rem;
+  }
+  
+  .heading p {
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-left: 20px;
+    padding: 40px 0 20px 20px;
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 164px; 
+    width: 2px;
+    background: #000;
+  }
+  
+  .event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .date {
+    color: gray;
+    font-size: 0.9rem;
+    width: 130px;
+    text-align: right;
+    margin-right: 15px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background: #000;
+    border-radius: 50%;
+    position: relative;
+    left: -6px;
+  }
+  
+  .title {
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  .btn {
+    display: block;
+    margin: 30px auto 10px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #333;
+  }
