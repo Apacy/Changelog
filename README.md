@@ -1,7 +1,42 @@
 # Changelog Website
 
-This is a simple **Changelog page** built with **HTML** and **CSS**.  
-It displays recent updates in a timeline format with dates, titles, and a vertical line connecting the events.  
+This is a **Changelog Website** project for [roadmap.sh.](https://roadmap.sh/projects/changelog-component)
+
+## Technologies Used
+ - HTML5
+ - CSS3
+
+---
+
+## Key Features
+ - Timeline layout with dates, events, and connecting line
+ - Clean, minimal, and centered design
+ - Interactive hover button to visit the complete changelog
+
+---
+
+## How to Run
+ 1. Download the **Changelog Website** folder
+ 2. Ensure it contains:
+    - `index.html`
+    - `style.css`
+ 3. Open `index.html` in your preferred web browser
+
+---
+
+## Project Structure
+```
+Changelog/
+│
+├── index.html
+└── style.css
+```
+
+---
+
+## Design Highlights
+ - Vertical timeline with dots and dates aligned
+ - Rounded container with neat spacing and typography
 
 ---
 
@@ -10,21 +45,10 @@ It displays recent updates in a timeline format with dates, titles, and a vertic
 
 ---
 
-## Features
-- Clean and minimal timeline design  
-- Dates and events aligned with connecting line  
-- Interactive hover button to visit the full changelog  
-- Responsive and centered layout  
-
----
-
 ## Preview 
 
-![Changelog Preview](./screenshot.png)
+![Changelog Website Preview](./screenshot.png)
 
 ---
 
-## Technologies Used
- - HTML5 for structure
- - CSS3 for styling
-
+Built as part of the [roadmap.sh](https://roadmap.sh/) frontend project challenges
